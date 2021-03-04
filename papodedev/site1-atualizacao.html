@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Netflix</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			
+			margin: 0;
+
+
+		}
+		.container{
+			width: 400px;
+			display: flex; /* SERVE PARA COLOCAR OS ELEMNTOS EM COLUNA, UM ABAIXO DO OUTRO  */
+			flex-direction:column; /* ESSA PRORIEDADE PERMITE ALTERAR A DIREÇÃO NO EIXO PRINCIPAL (LINHA OU COLUNA)*/
+			margin: auto; /* CENTRALIZA O ELEMENTO NO MEIO, COM MARGENS IGUAIS EM TODAS AS DIREÇÕES /// UMA DAS FORMAS DE FAZER O SITE SER RESPOSIVO*/
+			
+			/*border: 1px solid red;*/ 
+			position: relative;
+			
+		}
+		input, button {
+			height: 65px;
+			padding: 0 20px;
+			border-radius: 5px;
+			font-size: 1.2rem;
+
+		}
+		input{
+			color: white;
+			background:#2e2e2e;
+			border: 0px;
+			margin-bottom: 3.5px;
+		}
+		button{
+			
+			margin: 20px 0;
+		}
+		a{
+			font-family: 'Roboto', sans-serif;
+			margin: 15px auto;
+			color: white;
+			text-decoration: none; /* TIRA A BARRINHA EMBAIXO DO LINK*/
+
+
+		}	
+
+		}
+		.opacidade{
+			opacity: 0.5;
+		}
+
+		.jj{
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			width: 100%;
+			margin: 0;
+			position: absolute;
+			opacity: 0.79;
+		}
+
+		.link:hover{
+			background-color: #2e2e2e;
+			border: 1px solid black;
+			border-radius: 6px;
+			font-size: 94%;
+		}
+
+		.bnt{
+			border: 0px;
+			color: white;
+			background:#181818;
+			cursor: pointer;
+			transition: 0.7s; /*configura o tempo de transicao no elemento sem ação*/
+		}
+
+		.bnt:hover{
+			color: black;
+			background-color: #B22222;
+
+		}
+		
+
+	</style>
+</head>
+<body>
+	<img class="jj" src="https://s.aficionados.com.br/imagens/20-melhores-filmes-para-assistir-no-disney_f.jpg">
+	
+	<div class="container">
+		<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png">
+		<input type="text" name="Email" placeholder="Email">
+		<input type="password" name="Password" placeholder="Password">
+		<button class="bnt">Sing in</button>
+		
+		<a class="link" href="">Forgot your Password?</a>
+
+	</div>
+</body>
+</html>

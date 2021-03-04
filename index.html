@@ -1,14 +1,170 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <style>
-      a{
-        text-decoration: none;
-        font-size: 30px;
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>HH-Saúde</title>
+
+    <style type="text/css">
+      .bg-cabecalho { 
+         background:linear-gradient(55deg,#65F34C, #C3E2BE);
+       }
+
+       .area-cadastro{
+        background:linear-gradient(55deg,#65F34C, #C3E2BE);
+       }
+
+       h3.cadastro{text-align: center;
+        margin-top: 100px;
+        border-top: 0.4px solid #C2C0C0;
+       }
+
+       form{text-align: center;}
+
+       label{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        padding-right:130px;
+
+       }
+
+       button.bt-cadastro{
+        margin: 10px auto;
+        background-color: #2FE582;
+        cursor: pointer;
+      
+        border-radius: 90em;
+        border: 1px solid black;
+        width: 100px;
+
       }
+
+    
+        
+
+
+   
     </style>
-    <head>
-      <body>
-        <a href="papodedev/site1.html"> netflix pt1 </a> <br> <br>
-         <a href="papodedev/site1-atualizacaoo.html"> netflix pt2 </a>
-        </body>
+      
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-cabecalho">
+  
+      <div style="margin: 0 auto; display: inline; width: 1400px; text-align: center;">
+        <img class="rounded-circle mr-3" src="https://source.unsplash.com/70x70/?green leaf"  alt="logo da loja">
+        <br>
+
+       <!--/* https://source.unsplash.com/70x70/? serve pra buscar imagens aleatorias*/-->
+      <a class="navbar-brand text-dark" style="font-family: sans-serif;" href="#">HealthDay</a>
+        
+      </div>
+      <ul class="nav" style="margin: 0 auto;">
+        <li class="nav-item">
+          <a class="nav-link active text-dark" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-dark" href="#">Quem Somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    
+    </header>
+    
+
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?health" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?running" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?
+physical activity" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+    
+
+    </section>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-dark text-center my-3">
+          <h2> Matérias mais relevantes</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="border: 0.4px solid #CFCDCD">
+            <img src="https://source.unsplash.com/300x200/?apple" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maça como aliada para perda de peso</h5>
+                <p class="card-text">A maçã derrete a gordura do corpo, elimina a fome, faz bem para a saúde e ainda ajuda a secar até 2 kg em apenas 1 semana de consumo.</p>
+                  <a href="papodedev/site1.html" class="btn btn-primary">Leia mais...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card" style="border: 0.4px solid #CFCDCD">
+            <img src="https://source.unsplash.com/300x200/?banana" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Benefícios do consumo diário da banana</h5>
+                <p class="card-text">Uma pesquisa feita pela Universidade de Harvard, EUA, apontou que o consumo de duas bananas por dia melhora quase todas as funções do organismo!</p>
+                  <a href="#" class="btn btn-primary">Leia mais...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card" style="border: 0.4px solid #CFCDCD">
+            <img src="https://source.unsplash.com/300x200/?orange" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Importância da vitamina C no organismo</h5>
+                <p class="card-text">Neste artigo vamos explicar para que serve a vitamina C, quais são as suas reais ações no nosso organismo, quais são as principais fontes na dieta e quais são os efeitos.</p>
+                  <a href="#" class="btn btn-primary">Leia mais...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section></section>
+
+    
+    
+    <footer></footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>

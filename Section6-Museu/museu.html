@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+		<!--Normalize-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<!--ESTILO CUSTOMIZADO-->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+	<!--Inicio container-->
+	<div id="container">
+		<header>
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+			<nav id="teste">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Exposições</a></li>
+				<li><a href="#">Pesquisa</a></li>
+				<li><a href="#">Arcevo</a></li>
+				<li><a href="#">Vídeos</a></li>
+				<li><a href="#">Fotos</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+
+		</header>
+
+		<div id="principal" >
+			<div id="conteudo">
+				<section id="capa">
+					<img src="img/museu.png">
+				</section>
+
+				<section>
+					
+					<article id="video">
+						<h3>Conheça o Museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube.com/embed/6pgzni_m3i8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+
+					<article id="mapa" >
+						<h3>Encontre o Museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117356.06967814465!2d-45.92899424970778!3d-23.19292112604614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a17978ab60b%3A0x3cd645177f26aeca!2sMuseu%20Municipal%20de%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos!5e0!3m2!1spt-BR!2sbr!4v1614965950478!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li> <a href="#">Os assustadores insetos</a></li>
+							<li> <a href="#">Ferramentas Indígenas</a></li>
+							<li> <a href="#">Plantas do cerrado </a></li>
+							<li> <a href="#">Projetos de Oscar Nyemar</a></li>
+							<li> <a href="#">Guerra fria</a></li>
+						</ul>
+						
+					</article>
+						
+
+					<article id="historia" >
+						<h3>350 Anos de hístoria</h3>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their </p>
+						<a href=""> <strong>Leia mais...</strong></a>
+					</article>
+					
+				</section>
+
+
+			</div>
+
+			<aside>
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section>
+
+				<section id="vizita">
+					<h4>Faça uma vizita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+							
+							<label for="qtd">Qtd pessoas</label>
+							<input style="width: 30px" class="campo" type="text" id="qtd" value="1">
+						</fieldset>
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section>
+
+				<section id="galeria">
+					<h4>Galeria de Fotos</h4>
+					
+					<a href=""> <img src="img/imagem1.jpg" height="93" width="93" alt="Descrição da imagem"> </a>
+
+					<a href=""> <img src="img/imagem4.jpg" height="93" width="93"> </a>
+					<a href=""> <img src="img/imagem5.jpg" height="93" width="93"> </a>
+					<a href=""> <img src="img/imagem6.jpg" height="93" width="93"> </a>
+
+				</section>
+
+
+			</aside>
+			<footer style="clear: both;"> <!--Limpeza dos elementos flutuantes ultilizados-->
+				<p>
+					<a href="">Home</a>
+					<a href="">Exposições</a>
+					<a href="">Pesquisa</a>
+					<a href="">Arcevo</a>
+					<a href="">Vídeos</a>
+					<a href="">Fotos</a>
+					<a href="">Contato</a>
+				</p>
+
+				<p>
+					2021 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+				</p>
+			</footer>
+		</div> <!--fim do principal-->
+
+		<!--caso voce quisesser o footer em toda a largura da tela teria que botar
+			abaixo da div do final do principal, pois ele estaria contido na div(container)
+			que o width é a tela toda-->
+  
+  </div><!--Fim container-->
+
+
+</body>
+</html>
